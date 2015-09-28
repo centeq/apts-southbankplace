@@ -1,0 +1,19 @@
+$red: rgba(255,0,0,1);
+$white: rgba(255,255,255,1);
+
+body {
+    font-size: 200%;
+    color: $red;
+    background: $white;   
+    
+}
+
+.div1 {
+    color: $red;
+    .div2 {
+        color: $white;
+    }
+} 
+
+.div2 {
+    color: $white;}
